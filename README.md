@@ -39,4 +39,19 @@ A modern web application for tracking workouts, nutrition, and fitness goals wit
 
 ### Installation
 1. Clone the repo:
-  
+  ## Folder structuring
+ ### fitness-tracker-app/
+├── public/                   Static files
+│   ├── index.html            Main HTML file
+│   ├── favicon.ico           App icon
+│   ├── assets/               Static assets
+│   │   ├── images/           App images
+│   │   ├── fonts/           Custom fonts
+│   │   └── videos/           Exercise demo videos
+│
+├── src/                     # Source code
+│   ├── api/                 # API services
+│   │   ├── auth.js          # Authentication API calls
+│   │   ├── workouts.js      # Workout-related API calls
+│   │   └── nutrition.js     # Nutrition-related API calls
+│   │
