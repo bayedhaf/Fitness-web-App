@@ -1,0 +1,74 @@
+fitness-tracker-app/
+├── public/                  # Static files
+│   ├── index.html           # Main HTML file
+│   ├── favicon.ico          # App icon
+│   ├── assets/              # Static assets
+│   │   ├── images/          # App images
+│   │   ├── fonts/           # Custom fonts
+│   │   └── videos/          # Exercise demo videos
+│
+├── src/                     # Source code
+│   ├── api/                 # API services
+│   │   ├── auth.js          # Authentication API calls
+│   │   ├── workouts.js      # Workout-related API calls
+│   │   └── nutrition.js     # Nutrition-related API calls
+│   │
+│   ├── assets/              # Dynamic assets
+│   │   ├── svgs/            # SVG components
+│   │   ├── icons/           # Icon components
+│   │   └── styles/          # Global styles
+│   │       ├── _variables.scss # SCSS variables
+│   │       ├── _mixins.scss    # SCSS mixins
+│   │       └── main.scss      # Main stylesheet
+│   │
+│   ├── components/          # Reusable components
+│   │   ├── common/          # Common UI components
+│   │   │   ├── Button/
+│   │   │   ├── Card/
+│   │   │   ├── Modal/
+│   │   │   └── ...
+│   │   ├── auth/            # Auth-related components
+│   │   ├── workouts/        # Workout components
+│   │   ├── nutrition/       # Nutrition components
+│   │   └── dashboard/       # Dashboard components
+│   │
+│   ├── contexts/            # React contexts
+│   │   ├── AuthContext.js   # Authentication context
+│   │   └── AppContext.js    # Global app context
+│   │
+│   ├── hooks/               # Custom hooks
+│   │   ├── useAuth.js       # Auth hook
+│   │   ├── useWorkouts.js   # Workouts hook
+│   │   └── ...
+│   │
+│   ├── pages/               # Page components
+│   │   ├── Auth/            # Authentication pages
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   ├── Dashboard/       # Main dashboard
+│   │   ├── Workouts/        # Workout pages
+│   │   │   ├── WorkoutList.js
+│   │   │   ├── WorkoutDetail.js
+│   │   │   └── CreateWorkout.js
+│   │   ├── Nutrition/       # Nutrition pages
+│   │   ├── Progress/        # Progress tracking
+│   │   └── Settings/        # User settings
+│   │
+│   ├── store/               # State management (if using Redux)
+│   │   ├── slices/          # Redux slices
+│   │   └── store.js         # Store configuration
+│   │
+│   ├── utils/               # Utility functions
+│   │   ├── helpers.js       # Helper functions
+│   │   ├── validators.js    # Form validators
+│   │   └── constants.js     # App constants
+│   │
+│   ├── App.js               # Main app component
+│   ├── App.test.js          # App tests
+│   ├── index.js             # Entry point
+│   └── routes.js            # App routing configuration
+│
+├── .gitignore              # Git ignore file
+├── package.json            # Project dependencies
+├── README.md               # Project documentation
+└── ...                     # Other config files (eslint, babel, etc.)
