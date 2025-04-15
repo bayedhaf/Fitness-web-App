@@ -3,56 +3,56 @@ const Posts=[
         id:1,
         title:" Pilates",
         image:"/assets/image/jp2.jpg",
-        discreption:""
+        description:"Understanding the Roles of Trainers and Healthcare Professionals in Fitness"
 
     },
     {
         id:1,
         title:" Pilates",
         image:"/assets/image/jp1.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"Core",
         image:"/assets/image/jp3.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"Stretches",
         image:"/assets/image/jp6.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"Stretches",
         image:"/assets/image/jp5.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"",
         image:"/assets/image/jp7.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"",
         image:"/assets/image/jp2.jpg",
-        discreption:""
+        description:""
 
     },
     {
         id:1,
         title:"",
         image:"/assets/image/jym.jpg",
-        discreption:""
+        description:""
 
     },
 ];

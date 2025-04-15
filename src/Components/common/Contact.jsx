@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 const Contact = () => {
     return (
         <div className="bg-black text-white min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col">
@@ -80,8 +81,8 @@ const Contact = () => {
                     <div className="text-center md:text-right space-y-2">
                         <Link to="/Schedule" className="underline text-white hover:text-blue-100 block">FOLLOW US</Link>
                         <div className="flex justify-center md:justify-end gap-4">
-                            <Link to="/Schedule" className="underline text-white hover:text-blue-100">INSTAGRAM</Link>
-                            <Link to="/Schedule" className="underline text-white hover:text-blue-100">FACEBOOK</Link>
+                            <Link to="/Schedule" className="underline text-white hover:text-blue-100"><FaInstagram /></Link>
+                            <Link to="/Schedule" className="underline text-white hover:text-blue-100"><FaFacebook /></Link>
                         </div>
                     </div>
                 </div>
