@@ -1,12 +1,31 @@
-# React + Vite
+# 🏋️ Fitness Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Next.js** and **TensorFlow.js** powered fitness application that tracks workouts, provides AI-driven exercise recommendations, and monitors progress.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ✨ Features
+- **Workout Logging** – Track exercises, sets, reps, and weights.
+- **AI-Powered Recommendations** – TensorFlow.js suggests workouts based on progress.
+- **Real-Time Analytics** – Charts for weight, reps, and performance trends.
+- **User Profiles** – Save workout history and goals.
+- **Mobile-Friendly** – Responsive design for all devices.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **Frontend**: Next.js (App Router), TailwindCSS
+- **AI/ML**: TensorFlow.js (for exercise recommendations)
+- **Backend**: Firebase (Authentication & Firestore)
+- **Deployment**: Vercel / Netlify
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm / yarn
+- Firebase account (for auth/database)
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/bayedhaf/fitness-tracker-App.git
+   cd fitness-tracker-App
